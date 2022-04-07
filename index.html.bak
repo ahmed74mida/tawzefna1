@@ -58,9 +58,8 @@
                                             <li><a href="index.html">الصفحه الرئيسيه</a></li>
                                             <li><a href="job_find.html">ابحث عن عمل </a></li>
                                             <li><a href="about.html">معلومات عنا</a></li>
-                                            <li><a href="#">صفحات اضافية</a>
+                                            <li><a href="blog.html">المدونه</a>
                                                 <ul class="submenu">
-                                                    <li><a href="blog.html">المدونه</a></li>
                                                     <li><a href="single-blog.html">تفاصيل المدونه</a></li>
                                                     <li><a href="job_details.html">تفاصيل الوظائف</a></li>
                                                 </ul>
@@ -255,7 +254,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="browse-btn2 text-center mt-50">
-                            <a href="job_find.html" class="border-btn2">فتح جميع الفئات</a>
+                            <a href="job_find.html" class="border-btn2">فتح جميع الوظائف</a>
                         </div>
                     </div>
                 </div>
@@ -338,7 +337,7 @@
                                     <a href="job_details.html"><img src="assets/img/icon/job-list3.png" alt=""></a>
                                 </div>
                                 <div class="job-tittle">
-                                    <a href="job_details.html"><h4>مصمم</h4></a>
+                                    <a href="job_details.html"><h4>مصمم مواقع</h4></a>
                                     <ul>
                                         <li>وكالة ابداعية</li>
                                         <li><i class="fas fa-map-marker-alt"></i>الرياض , السعودية</li>

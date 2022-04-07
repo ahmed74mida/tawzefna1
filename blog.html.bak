@@ -53,15 +53,14 @@
                         <div class="col-lg-9 col-md-9">
                             <div class="menu-wrapper">
                                 <!-- Main-menu -->
-                                <div class="main-menu">
+                                 <div class="main-menu">
                                     <nav class="d-none d-lg-block">
                                         <ul id="navigation">
                                             <li><a href="index.html">الصفحه الرئيسيه</a></li>
                                             <li><a href="job_find.html">ابحث عن عمل </a></li>
                                             <li><a href="about.html">معلومات عنا</a></li>
-                                            <li><a href="#">صفحات اضافية</a>
+                                            <li><a href="blog.html">المدونه</a>
                                                 <ul class="submenu">
-                                                    <li><a href="blog.html">المدونه</a></li>
                                                     <li><a href="single-blog.html">تفاصيل المدونه</a></li>
                                                     <li><a href="job_details.html">تفاصيل الوظائف</a></li>
                                                 </ul>
@@ -69,11 +68,11 @@
                                             <li><a href="contact.html">تواصل</a></li>
                                         </ul>
                                     </nav>
-                                </div>         
+                                </div>          
                                 <!-- Header-btn -->
                                 <div class="header-btn d-none f-right d-lg-block">
-                                    <a href="#" class="btn head-btn1">Register</a>
-                                    <a href="#" class="btn head-btn2">Login</a>
+                                    <a href="#" class="btn head-btn1">تسجيل</a>
+                                    <a href="#" class="btn head-btn2">دخول</a>
                                 </div>
                             </div>
                         </div>
@@ -94,7 +93,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap text-center">
-                            <h2>Single Blog</h2>
+                            <h2>المدونه</h2>
                         </div>
                     </div>
                 </div>
@@ -245,60 +244,58 @@
                         <aside class="single_sidebar_widget search_widget">
                             <form action="#">
                                 <div class="form-group">
-                                    <div class="input-group mb-3">
-                                        <input type="text" class="form-control" placeholder='Search Keyword'
-                                            onfocus="this.placeholder = ''"
-                                            onblur="this.placeholder = 'Search Keyword'">
-                                        <div class="input-group-append">
-                                            <button class="btns" type="button"><i class="ti-search"></i></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
-                                    type="submit">Search</button>
-                            </form>
-                        </aside>
-
-                        <aside class="single_sidebar_widget post_category_widget">
-                            <h4 class="widget_title">Category</h4>
-                            <ul class="list cat-list">
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Resaurant food</p>
-                                        <p>(37)</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Travel news</p>
-                                        <p>(10)</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Modern technology</p>
-                                        <p>(03)</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Product</p>
-                                        <p>(11)</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Inspiration</p>
-                                        <p>21</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Health Care (21)</p>
-                                        <p>09</p>
-                                    </a>
-                                </li>
-                            </ul>
+                          <div class="input-group mb-3">
+                              <input type="text" class="form-control" placeholder='ماذا تريد ان تبحث عنه'
+                                 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Keyword'">
+                              <div class="input-group-append">
+                                 <button class="btns" type="button"><i class="ti-search"></i></button>
+                              </div>
+                           </div>
+                        </div>
+                        <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                           type="submit">بحث</button>
+                     </form>
+                  </aside>
+                  <aside class="single_sidebar_widget post_category_widget">
+                     <h4 class="widget_title">الفئات</h4>
+                     <ul class="list cat-list">
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>التصميم و الابداع</p>
+                              <p>(37)</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>تطوير المواقع</p>
+                              <p>(10)</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>المبيعات و التسويق</p>
+                              <p>(03)</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>تطبيقات الهاتف المحمول</p>
+                              <p>(11)</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>الانشاءات</p>
+                              <p>(21)</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>العقارات</p>
+                              <p>(21)</p>
+                           </a>
+                        </li>
+                     </ul>
                         </aside>
 
                         <aside class="single_sidebar_widget popular_post_widget">
